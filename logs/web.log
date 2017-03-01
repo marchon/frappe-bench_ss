@@ -1,0 +1,98 @@
+Traceback (most recent call last):
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 208, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 268, in send_welcome_mail_to_user
+    {"link": link, "site_url": get_url()})
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 297, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in sendmail
+    communication=communication, now=now)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/email/queue.py", line 53, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/email/smtp.py", line 58, in get_outgoing_email_account
+    frappe.OutgoingEmailError)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 309, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red')
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 302, in msgprint
+    _raise_exception()
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 275, in _raise_exception
+    raise raise_exception, encode(msg)
+OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+Traceback (most recent call last):
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 208, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 268, in send_welcome_mail_to_user
+    {"link": link, "site_url": get_url()})
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 297, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in sendmail
+    communication=communication, now=now)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/email/queue.py", line 53, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/email/smtp.py", line 58, in get_outgoing_email_account
+    frappe.OutgoingEmailError)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 309, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red')
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 302, in msgprint
+    _raise_exception()
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 275, in _raise_exception
+    raise raise_exception, encode(msg)
+OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+Traceback (most recent call last):
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 208, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 268, in send_welcome_mail_to_user
+    {"link": link, "site_url": get_url()})
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 297, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in sendmail
+    communication=communication, now=now)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/email/queue.py", line 53, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/email/smtp.py", line 58, in get_outgoing_email_account
+    frappe.OutgoingEmailError)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 309, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red')
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 302, in msgprint
+    _raise_exception()
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 275, in _raise_exception
+    raise raise_exception, encode(msg)
+OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+Traceback (most recent call last):
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 208, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 268, in send_welcome_mail_to_user
+    {"link": link, "site_url": get_url()})
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 297, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in sendmail
+    communication=communication, now=now)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/email/queue.py", line 53, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/email/smtp.py", line 58, in get_outgoing_email_account
+    frappe.OutgoingEmailError)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 309, in throw
+    msgprint(msg, raise_exception=exc, title=title, indicator='red')
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 302, in msgprint
+    _raise_exception()
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 275, in _raise_exception
+    raise raise_exception, encode(msg)
+OutgoingEmailError: Please setup default Email Account from Setup > Email > Email Account
+
+Traceback (most recent call last):
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 208, in send_password_notification
+    self.send_welcome_mail_to_user()
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 268, in send_welcome_mail_to_user
+    {"link": link, "site_url": get_url()})
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/core/doctype/user/user.py", line 297, in send_login_mail
+    delayed=(not now) if now!=None else self.flags.delay_emails, retry=3)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line 411, in sendmail
+    communication=communication, now=now)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/email/queue.py", line 53, in send
+    email_account = get_outgoing_email_account(True, append_to=reference_doctype)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/email/smtp.py", line 58, in get_outgoing_email_account
+    frappe.OutgoingEmailError)
+  File "/home/gestionale/frappe-bench/apps/frappe/frappe/__init__.py", line
